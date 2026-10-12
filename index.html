@@ -1,0 +1,170 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manisha Gurung | Portfolio</title>
+  <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+
+
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <span>M-</span>Gurung
+    </div>
+
+    <nav id="nav">
+      <a href="#home" onclick="closeMenu()">HOME</a>
+      <a href="#about" onclick="closeMenu()">ABOUT</a>
+      <a href="#skills" onclick="closeMenu()">SKILLS</a>
+      <a href="#work" onclick="closeMenu()">MY WORK</a>
+      <a href="#contact" onclick="closeMenu()">CONTACT</a>
+    </nav>
+
+    <div class="menu" onclick="toggleMenu()">
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+    </div>
+  </header>
+
+  <!-- Home / Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="hello">Hi, I'm <span>Manisha</span></p>
+      <h1><span>WEB</span> DESIGNER</h1>
+      <p class="description">Web designer and developer from Bhutan. I create beautiful, functional, and responsive websites.</p>
+      <a href="#contact" class="btn-primary">Hire Me</a>
+
+      <div class="social">
+        <a href="https://www.facebook.com/baby.junixx?rdid=9PH78x7KIfIL5vE6&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14tM7xFusNX%2F#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/babyjunixx?rpxt=MXN4c2txb3F4aTdnZQ%3D%3D" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@manisha4111?_r=1&_t=ZS-9AUQ7LxDTPh" aria-label="tiktok"><i class="fa-brands fa-tiktok"></i></i></a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="profile-img-container">
+        <img src="./img/photo_6215164045409588163_y.jpg" alt="Manisha Gurung">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about-bg">
+    <h2 class="section-title">ABOUT <span>ME</span></h2>
+    <div class="about-content">
+      <p class="about-intro">
+        My name is Manisha Gurung. I am a friendly, hardworking, and responsible person who loves learning new technology, enhancing creative skills, and working on personal development.
+      </p>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <h3><i class="fa-solid fa-user-graduate"></i> Education</h3>
+          <ul>
+            <li>Completed Class 12 at Daga Higher Secondary School</li>
+          </ul>
+        </div>
+
+        <div class="info-card">
+          <h3><i class="fa-solid fa-headphones"></i> Hobbies</h3>
+          <ul>
+            <li>Listening to music</li>
+            <li>Traveling & exploring new places</li>
+          </ul>
+        </div>
+
+        <div class="info-card">
+          <h3><i class="fa-solid fa-bullseye"></i> Goals</h3>
+          <ul>
+            <li>Build a successful tech career</li>
+            <li>Become confident and independent</li>
+            <li>Achieve dreams through hard work</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2 class="section-title">MY <span>SKILLS</span></h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fa-brands fa-html5 skill-icon"></i>
+        <h4>HTML</h4>
+        <p>Structuring responsive webpages with headings, dynamic media, interactive forms, and clean semantical markup.</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-brands fa-css3-alt skill-icon"></i>
+        <h4>CSS</h4>
+        <p>Designing modern page layouts using Flexbox, CSS Grid, custom color schemes, smooth animations, and responsive styles.</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-brands fa-js skill-icon"></i>
+        <h4>JavaScript</h4>
+        <p>Adding dynamic behavior, user interactivity, games, custom event handling, and logic functionality.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work" class="section about-bg">
+    <h2 class="section-title">MY <span>WORK</span></h2>
+
+    <div class="works-grid">
+      <div class="work-card">
+        <h3>Portfolio Website</h3>
+        <p>A personal responsive portfolio site showcasing web projects and personal achievements.</p>
+      </div>
+
+      <div class="work-card">
+        <h3>Interactive Story</h3>
+        <p>A fun JavaScript interactive choice-driven storytelling application.</p>
+      </div>
+
+      <div class="work-card">
+        <h3>Mini Games</h3>
+        <p>Engaging browser mini-games created using HTML5, CSS3, and modern JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2 class="section-title">CONTACT <span>ME</span></h2>
+
+    <div class="contact-container">
+      <div class="contact-item">
+        <i class="fa-solid fa-phone"></i>
+        <span>+975 16106478</span>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Dagana, Lhaling, Bhutan</span>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-envelope"></i>
+        <span>mg940576@gmail.com</span>
+      </div>
+      <p class="contact-note">Let's create something amazing together!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Manisha Gurung. All Rights Reserved.</p>
+  </footer>
+
+  
+  <script src="./JS/script.js"></script>
+</body>
+</html>
